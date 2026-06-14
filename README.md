@@ -84,10 +84,7 @@ Backend:
 
 
 
-
-
-## 📂 Project Structure
-
+```
 agri-commerce/
 ├── apps/
 │   ├── frontend/
@@ -113,6 +110,7 @@ agri-commerce/
 ├── docs/
 ├── .env.example
 └── README.md
+```
 
 
 
