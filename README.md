@@ -1,58 +1,61 @@
-🌿 AGRICULTURAL COMMERCE PLATFORM (MERN STACK)
+# 🌿 Agricultural Commerce Platform (MERN Stack)
 
-A full-stack agricultural e-commerce platform with dual business model support:
-B2B (Wholesale) + B2C (Retail) + Dynamic CMS Admin Dashboard
+A full-stack **Agricultural E-Commerce Platform** built using MERN stack with **B2B (Wholesale)** and **B2C (Retail)** dual mode system and dynamic CMS admin dashboard.
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🚀 LIVE DEMO
-━━━━━━━━━━━━━━━━━━━━━━━
-Frontend: http://localhost:5173
-Admin Panel: http://localhost:5173/admin
-Backend API: http://localhost:5000
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━
-📌 PROJECT OVERVIEW
-━━━━━━━━━━━━━━━━━━━━━━━
-This system simulates a real-world agricultural marketplace with two modes:
+## 🚀 Live Demo
 
-🏪 B2C (Retail Mode)
+- 🌐 Frontend: http://localhost:5173
+- ⚙️ Admin Panel: http://localhost:5173/admin
+- 🔗 Backend API: http://localhost:5000
+
+---
+
+## 📌 Project Overview
+
+This project simulates a real-world agricultural marketplace with two business models:
+
+### 🏪 B2C (Retail Mode)
 - Visible product pricing
-- Add to Cart system
-- Checkout & Orders
+- Add to Cart system 🛒
+- Checkout & Orders 💳
 - Customer purchase flow
 
-🤝 B2B (Wholesale Mode)
-- Price hidden / Quote system
-- Bulk enquiry system
+### 🤝 B2B (Wholesale Mode)
+- Price hidden / Request Quote system
+- Bulk enquiry form
 - Business lead generation
-- Supplier communication
+- Supplier communication system
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🔄 CORE FEATURE
-━━━━━━━━━━━━━━━━━━━━━━━
-Mode Switch System:
+---
+
+## 🔄 Core Feature — Mode Switch
+
 - Toggle between B2B ↔ B2C from frontend
 - UI changes dynamically
 - Pricing + actions change automatically
-- Admin controls default mode + settings
+- Admin controls default mode
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🌱 FEATURES
-━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-🧑‍🌾 FRONTEND (CUSTOMER SIDE)
-- Modern agricultural UI (green, white, earthy theme)
-- Fully responsive design (mobile, tablet, desktop)
-- Homepage with CMS-driven sections
-- Product listing with filters & search
+## 🌱 Features
+
+### 🧑‍🌾 Frontend (Customer Side)
+- Modern agricultural UI 🌿
+- Fully responsive design (mobile/tablet/desktop)
+- Homepage CMS-driven sections
+- Product listing with search & filters
 - Product detail page
 - Cart & checkout system
 - B2B enquiry system
 - Mode switch toggle
 
-🛠 ADMIN PANEL (CMS SYSTEM)
-- Secure JWT authentication
-- Product CRUD (Create, Read, Update, Delete)
+---
+
+### 🛠 Admin Panel (CMS System)
+- Secure JWT authentication 🔐
+- Product CRUD operations
 - Category management
 - Order management system
 - B2B enquiry management
@@ -60,9 +63,9 @@ Mode Switch System:
 - Website settings control
 - Mode configuration (default B2B/B2C)
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🧠 TECH STACK
-━━━━━━━━━━━━━━━━━━━━━━━
+---
+
+## 🧠 Tech Stack
 
 Frontend:
 - React (Vite)
@@ -77,16 +80,11 @@ Backend:
 - JWT Authentication
 - REST APIs
 
-━━━━━━━━━━━━━━━━━━━━━━━
-📂 PROJECT STRUCTURE
-━━━━━━━━━━━━━━━━━━━━━━━
+---
+
+## 📂 Project Structure
 
 agri-commerce/
-│
-📂 PROJECT STRUCTURE
-
-agri-commerce/
-|
 ├── apps/
 │   ├── frontend/
 │   │   ├── src/
@@ -94,11 +92,10 @@ agri-commerce/
 │   │   │   ├── components/
 │   │   │   ├── pages/
 │   │   │   ├── layouts/
-│   │   │   ├── services/
 │   │   │   ├── context/
+│   │   │   ├── services/
 │   │   │   └── App.jsx
-│   │   ├── index.html
-│   │   └── package.json
+│   │   └── index.html
 │   │
 │   └── backend/
 │       ├── config/
@@ -108,66 +105,71 @@ agri-commerce/
 │       ├── middleware/
 │       ├── seed/
 │       └── server.js
-|
+│
 ├── docs/
 ├── .env.example
-├── README.md
-└── package.json
-━━━━━━━━━━━━━━━━━━━━━━━
-🔄 USER FLOWS
-━━━━━━━━━━━━━━━━━━━━━━━
+└── README.md
 
-🏪 B2C FLOW:
+---
+
+## 🔄 User Flows
+
+### 🏪 B2C Flow
 Browse Products → Add to Cart → Checkout → Order Placed → Admin Processing
 
-🤝 B2B FLOW:
-Switch to Wholesale Mode → View Products → Submit Enquiry → Admin Response → Lead Management
+### 🤝 B2B Flow
+Switch Mode → View Products → Submit Enquiry → Admin Response → Lead Management
 
-━━━━━━━━━━━━━━━━━━━━━━━
-⚙️ SETUP INSTRUCTIONS
-━━━━━━━━━━━━━━━━━━━━━━━
+---
 
+## ⚙️ Setup Instructions
+
+```bash
 git clone https://github.com/your-username/agri-commerce.git
 
-Frontend:
 cd apps/frontend
 npm install
 npm run dev
 
-Backend:
 cd apps/backend
 npm install
 npm run dev
+```
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🌿 ENVIRONMENT VARIABLES
-━━━━━━━━━━━━━━━━━━━━━━━
+---
 
+## 🌿 Environment Variables
+
+```env
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret_key
 PORT=5000
+```
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🌟 FUTURE IMPROVEMENTS
-━━━━━━━━━━━━━━━━━━━━━━━
-- Payment gateway integration
-- AI crop recommendation system
-- Real-time order tracking
-- Multi-language support
-- Advanced analytics dashboard
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━
-👨‍💻 AUTHOR
-━━━━━━━━━━━━━━━━━━━━━━━
+## 🌟 Future Improvements
 
-Karan Choudhury
+- Payment gateway integration 💳
+- AI crop recommendation system 🤖
+- Real-time order tracking 🚚
+- Multi-language support 🌍
+- Advanced analytics dashboard 📊
+
+---
+
+## 👨‍💻 Author
+
+Kaartik Jangid
 Full Stack MERN Developer 🚀
 
-━━━━━━━━━━━━━━━━━━━━━━━
-🏁 FINAL NOTE
-━━━━━━━━━━━━━━━━━━━━━━━
-This project is a production-level MERN application with:
-✔ Dual business model (B2B + B2C)
-✔ Dynamic CMS system
-✔ Scalable architecture
+---
+
+## 🏁 Final Note
+
+This project demonstrates a production-level MERN architecture with:
+
+✔ Dual business model (B2B + B2C)  
+✔ Dynamic CMS system  
+✔ Scalable backend structure  
 ✔ Real-world e-commerce logic
