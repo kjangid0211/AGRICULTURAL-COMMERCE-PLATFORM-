@@ -83,8 +83,12 @@ Backend:
 
 agri-commerce/
 │
+📂 PROJECT STRUCTURE
+
+agri-commerce/
+|
 ├── apps/
-│   ├── frontend/              # React UI (Vite + Tailwind)
+│   ├── frontend/
 │   │   ├── src/
 │   │   │   ├── assets/
 │   │   │   ├── components/
@@ -93,8 +97,10 @@ agri-commerce/
 │   │   │   ├── services/
 │   │   │   ├── context/
 │   │   │   └── App.jsx
+│   │   ├── index.html
+│   │   └── package.json
 │   │
-│   └── backend/               # Node + Express API
+│   └── backend/
 │       ├── config/
 │       ├── controllers/
 │       ├── models/
@@ -102,11 +108,11 @@ agri-commerce/
 │       ├── middleware/
 │       ├── seed/
 │       └── server.js
-│
+|
 ├── docs/
 ├── .env.example
-└── README.md
-
+├── README.md
+└── package.json
 ━━━━━━━━━━━━━━━━━━━━━━━
 🔄 USER FLOWS
 ━━━━━━━━━━━━━━━━━━━━━━━
